@@ -1,0 +1,59 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 100px;
+}
+
+.nomeperfil {
+    text-align: center;
+    padding: 30px;
+}
+
+.links{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-width: 2px;
+    border-radius: 40px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 1s;
+}
+
+a:hover{
+    color: #000000;
+    background: #ffffff;
+}
+
+.criador{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 150px;
+}
