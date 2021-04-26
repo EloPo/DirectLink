@@ -12,8 +12,8 @@ E depois crie um projeto novo no vercel (https://vercel.com) vinculando o projet
 - Crie uma conta no GitHub;
 - Faça um fork do projeto;
 - Após isso, vá na index.html e altere as informações como: 
-  -  nome do perfil: <title> e <div class="nomeperfil">
-  -  imagem:  <img> <link rel="shortcut icon" href="assets/favicon.ico" />
+  -  nome do perfil: <title> <div class="nomeperfil">
+  -  imagem: <img> <link rel="shortcut icon" href="assets/favicon.ico" />
   -  urls: <a href=""> (Caso queira colocar mais, é só dar um ctrl + c e ctrl + v na linha <a>)
   -  a logo, basta trocar a foto que está na pasta "assest". Aqui é só excluir a atual e colocar a sua com o nome de logo.png para dar certo.
 
