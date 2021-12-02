@@ -19,12 +19,17 @@ img {
     max-width: 100px;
 }
 
-.nomeperfil {
+.nameperfil {
     text-align: center;
     padding: 30px;
 }
 
-.links{
+p {
+    text-align: center;
+    margin: 20px;
+}
+
+.links {
     text-align: center;
     margin-top: 20px;
     padding: 20px;
@@ -35,7 +40,6 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 a {
@@ -44,16 +48,86 @@ a {
     transition: color 1s;
 }
 
-a:hover{
+a:hover {
     color: #000000;
     background: #ffffff;
 }
 
-.criador{
+.creator {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
     height: auto;
     max-width: 150px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+.card {
+    background: #ffffff;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-image {
+    height: 140px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.card-1 {
+    background-image: url('https://images.sympla.com.br/61a6383b5d367-lg.png');
+}
+
+.card-2 {
+    background-image: url('https://images.sympla.com.br/6196a75cf1dad-lg.jpg');
+}
+
+.card-3 {
+    background-image: url('https://images.sympla.com.br/61a65c60d51bc-lg.png');
+}
+
+.card-4 {
+    background-image: url('https://images.sympla.com.br/617c21587a2d8-lg.png');
+}
+
+.card-5 {
+    background-image: url('https://images.sympla.com.br/619007027390c-lg.png');
+}
+
+.card-6 {
+    background-image: url('https://images.sympla.com.br/61a642d1e4714-lg.png');
+}
+
+.card h2 {
+    text-align: center;
+    padding: 10px;
+    color: #000000;
+}
+
+.card a {
+    background-color: #160448;
+    color: #ffffff;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card p {
+    color: #000000;
 }
