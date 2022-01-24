@@ -62,11 +62,6 @@ a:hover {
     max-width: 150px;
 }
 
-.card-1 {
-    background-image: url('https://forumblockchain.com.br/wp-content/uploads/2022/01/header.jpg');
-    background-color: #E6E6E6;
-}
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -78,4 +73,42 @@ a:hover {
     justify-content: center;
     flex-wrap: wrap;
     border-radius: 15px;
+}
+
+.card {
+    background: #ffffff;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-image {
+    height: 140px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.card-1 {
+    background-image: url('https://forumblockchain.com.br/wp-content/uploads/2022/01/header.jpg');
+    background-color: #E6E6E6;
+}
+
+.card h2 {
+    text-align: center;
+    padding: 10px;
+    color: #000000;
+}
+
+.card a {
+    background-color: #160448;
+    color: #ffffff;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card p {
+    color: #000000;
 }
