@@ -89,7 +89,12 @@ a:hover {
 }
 
 .card-1 {
-    background-image: url('https://forumblockchain.com.br/wp-content/uploads/2022/01/header.jpg');
+    background-image: url('https://images.sympla.com.br/62156fb2c4fe0-lg.jpg');
+    background-color: #E6E6E6;
+}
+
+.card-2 {
+    background-image: url('https://images.sympla.com.br/621fbc4937f18-lg.jpg');
     background-color: #E6E6E6;
 }
 
