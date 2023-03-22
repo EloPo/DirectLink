@@ -93,6 +93,12 @@ a:hover {
     background-color: #E6E6E6;
 }
 
+.card h2 {
+    text-align: center;
+    padding: 10px;
+    color: #000000;
+}
+
 .card a {
     background-color: #160448;
     color: #ffffff;
